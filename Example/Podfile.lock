@@ -1,0 +1,16 @@
+PODS:
+  - CPGradientImage (0.1.0)
+
+DEPENDENCIES:
+  - CPGradientImage (from `../`)
+
+EXTERNAL SOURCES:
+  CPGradientImage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CPGradientImage: 9330a01cdad9384d3e4cf216dd82a86ce7463f31
+
+PODFILE CHECKSUM: 70d907c5cfa59d9bd8d2c4fad09711793fd18ef5
+
+COCOAPODS: 1.1.1
