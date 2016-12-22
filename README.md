@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/CPGradientImage.svg?style=flat)](http://cocoapods.org/pods/CPGradientImage)
 [![Platform](https://img.shields.io/cocoapods/p/CPGradientImage.svg?style=flat)](http://cocoapods.org/pods/CPGradientImage)
 
+## Screenshot
+
+[](http://class-b2.ucoz.com/screenshot.jpg)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
