@@ -28,7 +28,7 @@ public class CPGradientImage: UIImageView{
     
     //Detect gradient direction
     
-    public func detectGradientDirection(){
+    func detectGradientDirection(){
         switch direction{
         case .top:
             gradient.startPoint = CGPoint(x: 0.0, y: 1.0)
