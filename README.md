@@ -7,7 +7,7 @@
 
 ## Screenshot
 
-[](http://class-b2.ucoz.com/screenshot.jpg)
+![](http://class-b2.ucoz.com/screenshot.jpg)
 
 ## Example
 
