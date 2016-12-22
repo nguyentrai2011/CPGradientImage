@@ -34,7 +34,7 @@ Support 8 direction:
 DESC
 
   s.homepage         = 'https://github.com/katafo/CPGradientImage'
-  s.screenshots     = [](http://imgur.com/a/9nJm4)
+  s.screenshots      = 'http://class-b2.ucoz.com/screenshot.jpg'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Phong Cao' => 'phong.caothanh@apps-cyclone.com' }
   s.source           = { :git => 'https://github.com/katafo/CPGradientImage.git', :tag => s.version.to_s }
