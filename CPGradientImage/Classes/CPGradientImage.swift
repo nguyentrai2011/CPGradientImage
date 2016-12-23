@@ -22,7 +22,6 @@ public class CPGradientImage: UIImageView{
         gradient.colors = [startColor.cgColor,endColor.cgColor]
         detectGradientDirection()
         gradient.locations = locations
-        gradient.cornerRadius = self.layer.cornerRadius
         self.layer.insertSublayer(gradient, at: 0)
     }
     
