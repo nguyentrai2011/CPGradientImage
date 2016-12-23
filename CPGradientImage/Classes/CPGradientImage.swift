@@ -9,15 +9,15 @@
 
 import UIKit
 
-public class CPGradientImage: UIImageView{
+open class CPGradientImage: UIImageView{
     
-    let gradient = CAGradientLayer()
-    public var startColor: UIColor = UIColor(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.5)
-    public var endColor: UIColor = UIColor.clear
-    public var locations: [NSNumber] = [0.0,0.5]
-    public var direction: CPGradientDirection = .top
+    fileprivate let gradient = CAGradientLayer()
+    open var startColor: UIColor = UIColor(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.5)
+    open var endColor: UIColor = UIColor.clear
+    open var locations: [NSNumber] = [0.0,0.5]
+    open var direction: CPGradientDirection = .top
     
-    public func show(){
+    open func show(){
         gradient.frame = self.bounds
         gradient.colors = [startColor.cgColor,endColor.cgColor]
         detectGradientDirection()
@@ -27,7 +27,7 @@ public class CPGradientImage: UIImageView{
     
     //Detect gradient direction
     
-    func detectGradientDirection(){
+    fileprivate func detectGradientDirection(){
         switch direction{
         case .top:
             gradient.startPoint = CGPoint(x: 0.0, y: 1.0)
