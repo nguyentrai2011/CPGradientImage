@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CPGradientImage'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CPGradientImage.'
+  s.summary          = 'Add gradient subLayer to your ImageView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,13 +19,25 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+
+Support 8 direction:
+
+- Top
+- Bottom
+- Left
+- Right
+- Top left to bottom right
+- Top right to bottom left
+- Bottom left to top right
+- Bottom right to top left
+
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/CPGradientImage'
+  s.homepage         = 'https://github.com/katafo/CPGradientImage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Phong Cao' => 'phong.caothanh@apps-cyclone.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/CPGradientImage.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/katafo/CPGradientImage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
